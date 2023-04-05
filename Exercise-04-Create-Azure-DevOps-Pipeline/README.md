@@ -11,8 +11,6 @@ Create an Azure DevOps Pipeline for a web based application. Make sure you have 
 2. Create an ASP.NET MVC application with these command:
 
        cd %userprofile%\Source
-       #dotnet new mvc --language C# --name AmazingWebApp --output AmazingWebProject --auth None --domain [profile].macewan.ca --framework net6.0 
-       #dotnet new mvc --language C# --name AmazingWebApp --output AmazingWebProject --auth None
        dotnet new mvc --language C# --name AmazingWebApp --output AmazingWebApp --auth None
        cd AmazingWebApp
        dotnet new sln
